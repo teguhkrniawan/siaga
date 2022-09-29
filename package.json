@@ -10,7 +10,9 @@
         "production": "mix --production"
     },
     "devDependencies": {
+        "@babel/helper-compilation-targets": "^7.19.3",
         "@babel/preset-react": "^7.0.0",
+        "@pmmmwh/react-refresh-webpack-plugin": "^0.5.0-rc.0",
         "axios": "^0.21",
         "bootstrap": "^4.0.0",
         "jquery": "^3.2",
@@ -20,12 +22,14 @@
         "postcss": "^8.1.14",
         "react": "^17.0.1",
         "react-dom": "^17.0.1",
+        "react-refresh": "^0.14.0",
         "resolve-url-loader": "^5.0.0",
         "sass": "^1.15.2",
         "sass-loader": "^8.0.0"
     },
     "dependencies": {
         "@inertiajs/inertia": "^0.8.4",
-        "@inertiajs/inertia-react": "^0.5.3"
+        "@inertiajs/inertia-react": "^0.5.3",
+        "react-bootstrap": "^2.5.0"
     }
 }
